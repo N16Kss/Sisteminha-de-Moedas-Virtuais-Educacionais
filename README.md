@@ -15,3 +15,11 @@ Empresas parceiras devem ser possibiltadas de se cadastrar no sistema
 
 
 Para cadastrar uma vantagem empresas devem adicionar uma descrição e imagem do produto
+
+
+
+
+Alunos podem fazer trocas de moedas enter alunos, mas é necessário aprovação dos professores de mesma turma, não é possível enviar caso não haja professores similares entre os alunos
+
+
+
