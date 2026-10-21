@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/sistema_merito}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:root24}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: always
+  mail:
+    host: ${MAIL_HOST:}
+    port: ${MAIL_PORT:587}
+    username: ${MAIL_USERNAME:}
+    password: ${MAIL_PASSWORD:}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+merite:
+  mail-from: ${MAIL_FROM:no-reply@merite.local}
+  cors-origin: ${CORS_ORIGIN:http://localhost:5173}
